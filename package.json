@@ -1,0 +1,24 @@
+{
+  "name": "linkify",
+  "version": "0.1.0",
+  "description": "A simple node module to convert a url string (starting with http:// , https://, www. or ftp://) to a html clickable link",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishekg785/linkify.js.git"
+  },
+  "keywords": [
+    "link",
+    "html",
+    "hyperlink"
+  ],
+  "author": "abhishek goswami <abhishekg785@gmail.com> (http://abhishekg785.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abhishekg785/linkify.js/issues"
+  },
+  "homepage": "https://github.com/abhishekg785/linkify.js#readme"
+}
