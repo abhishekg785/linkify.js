@@ -1,4 +1,4 @@
-linkify
+doLink
 =======
 
 A simple node module to convert the url-strings (having http://, https:// , www., or ftp:// ) into the html clickable links.
@@ -11,14 +11,14 @@ For eg : As string like => this is the link to my git profile https://github.com
 
 ##Usage
 <code>
-  var linkify = require('linkify');
+  var doLink = require('doLink');
 
   var stringURL = 'this is a link to fb www.fb.com';
 
-  var processedURL = linkify(stringURL);
+  var processedURL = doLink(stringURL);
 
   console.log(processedURL); // this is a link to fb <a style = "color:#8e44ad" href="http://www.fb.com" target="_blank">www.fb.com</a>
 </code>
 
 ##Installation
-  npm install linkify
+  npm install doLink

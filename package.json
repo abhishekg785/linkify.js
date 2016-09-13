@@ -1,5 +1,5 @@
 {
-  "name": "linkify",
+  "name": "doLink",
   "version": "0.1.0",
   "description": "A simple node module to convert a url string (starting with http:// , https://, www. or ftp://) to a html clickable link",
   "main": "index.js",
