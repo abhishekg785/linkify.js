@@ -1,24 +1,23 @@
 doLink
 =======
 
-A simple node module to convert the url-strings (having http://, https:// , www., or ftp:// ) into the html clickable links.
+A simple node package to convert the url-strings (having http://, https:// , www., or ftp:// ) into the html clickable links.
 
-For eg : As string like => this is the link to my git profile https://github.com/abhishekg785, will be converted simply into
+  eg : As string like " this is the link to my git profile https://github.com/abhishekg785 ", will be converted simply into
 
-<code>
   this is the link to my git profile <a href = 'https://github.com/abhishekg785/'>https://github.com/abhishekg785/</a>
-</code>
 
-##Usage
-<code>
+Usage
+=====
+
   var doLink = require('doLink');
-
   var stringURL = 'this is a link to fb www.fb.com';
-
   var processedURL = doLink(stringURL);
 
-  console.log(processedURL); // this is a link to fb <a style = "color:#8e44ad" href="http://www.fb.com" target="_blank">www.fb.com</a>
-</code>
+  console.log(processedURL);
+  will give => this is a link to fb <a style = "color:#8e44ad" href="http://www.fb.com" target="_blank">www.fb.com</a>
 
-##Installation
+Installation
+============
+
   npm install doLink
